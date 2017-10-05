@@ -137,6 +137,7 @@ button {
 .icon {
     display: inline-block;
 }
+
 .orange-text {
     color: #ff5912;
 }
@@ -160,7 +161,8 @@ button {
 .light-orange-bg{
     background-color: #ff9060;
 }
-.orange-bg{
+
+.orange-bg {
     background-color: #ff5912;
 }
 
@@ -180,10 +182,9 @@ button {
 }
 
 .title {
-    font-family: 'Harmonia_black';
     text-transform: uppercase;
     font-size: 36px;
-    margin-bottom: 20px;
+    padding-bottom: .1em;
 }
 
 .title.big {
@@ -195,42 +196,46 @@ button {
 }
 
 .sub-title {
-    font-size: 16px;
+
+}
+
+.sub-title.big {
+    font-size: 18px;
 }
 
 .sub-title.medium {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .sub-title.small {
     font-size: 12px;
 }
 
-.bold-title {
-    font-family: 'Harmonia_semibold', sans-serif;
-    font-size: 18px;
-}
-
-.bolder-title {
-    font-family: 'Harmonia_black', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
 .aside-title {
-    font-family: 'Harmonia_black', sans-serif;
     font-size: 18px;
     color: #ff5912;
     padding-bottom: 40px;
 }
 
-.text-italic {
-    font-family: 'Harmonia_italic';
+.font-italic {
+    font-family: 'Harmonia_italic', sans-serif;
 }
 
-.item-carousel-description .sub-title {
-    padding-top: 10px;
-    padding-bottom: 60px;
+.font-semibold {
+    font-family: 'Harmonia_semibold', sans-serif;
+}
+
+.font-bold {
+    font-family: 'Harmonia_bold', sans-serif;
+}
+
+.font-black {
+    font-family: 'Harmonia_black', sans-serif;
+}
+
+.item-carousel-description .text {
+    padding-top: .5em;
+    padding-bottom: 4em;
 }
 
 .item-carousel-description a:hover,
@@ -238,7 +243,7 @@ button {
     color: #ff5912;
 }
 
-.item-carousel-description a.bold-title.orange-text {
+.item-carousel-description > a {
     padding-left: 30px;
 }
 
@@ -436,15 +441,11 @@ a.load-more:hover span {
 
 .best-sales-product {
     min-height: 160px;
-}
-
-.best-sales-product-img {
-    padding-left: 10px;
+    padding: 30px;
 }
 
 .best-sales-description {
-    padding-left: 25px;
-    padding-right: 10px;
+    padding-left: 2em;
     border-left: 1px solid #eaedef;
 }
 
@@ -485,7 +486,6 @@ a.load-more:hover span {
     opacity: 0;
     position: absolute;
     bottom: 45px;
-    width: 50%;
     -webkit-transition: all .2s linear .1s;
     -moz-transition: all .2s linear .1s;
     -ms-transition: all .2s linear .1s;
@@ -518,8 +518,9 @@ a.load-more:hover span {
     color: #ff5912;
 }
 
-.subscribe-description .orange-text.bolder-title {
+.subscribe-description .sub-title {
     padding-right: 15px;
+    text-transform: uppercase;
 }
 
 .subscribe-form {
@@ -941,10 +942,6 @@ footer {
 .footer-nav li:hover,
 .footer-nav a:hover {
     color: #ff5912;
-}
-
-.payment-methods span.sub-title {
-    font-family: 'Harmonia_bold', sans-serif;
 }
 
 .payment-methods-icon {
