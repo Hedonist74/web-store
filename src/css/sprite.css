@@ -18,115 +18,115 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-add-to-cart-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
-  width: 24px;
-  height: 23px;
+  background-position: 0px -42px;
+  width: 22px;
+  height: 21px;
 }
 .icon-add-to-cart-ic {
   background-image: url(../img/sprite.png);
-  background-position: -24px 0px;
-  width: 24px;
-  height: 23px;
+  background-position: -24px -42px;
+  width: 22px;
+  height: 21px;
 }
 .icon-amex-ic {
   background-image: url(../img/sprite.png);
-  background-position: 0px -23px;
+  background-position: 0px -21px;
   width: 27px;
   height: 19px;
 }
 .icon-cart-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -26px -61px;
-  width: 26px;
-  height: 19px;
+  background-position: 0px -65px;
+  width: 24px;
+  height: 17px;
 }
 .icon-cart-ic {
   background-image: url(../img/sprite.png);
-  background-position: 0px -61px;
-  width: 26px;
-  height: 19px;
+  background-position: -58px -21px;
+  width: 24px;
+  height: 17px;
 }
 .icon-like-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -52px -61px;
-  width: 21px;
-  height: 18px;
+  background-position: 0px -84px;
+  width: 19px;
+  height: 16px;
 }
 .icon-like-ic {
   background-image: url(../img/sprite.png);
-  background-position: -73px -61px;
-  width: 21px;
-  height: 18px;
+  background-position: -68px -65px;
+  width: 19px;
+  height: 16px;
 }
 .icon-mail-ic {
   background-image: url(../img/sprite.png);
-  background-position: -97px -40px;
+  background-position: -89px -65px;
   width: 18px;
   height: 11px;
 }
 .icon-master-cart-ic {
   background-image: url(../img/sprite.png);
-  background-position: 0px -42px;
+  background-position: -58px 0px;
   width: 27px;
   height: 19px;
 }
 .icon-no-name-cart-1-ic {
   background-image: url(../img/sprite.png);
-  background-position: -27px -42px;
+  background-position: 0px 0px;
   width: 27px;
   height: 19px;
 }
 .icon-no-name-cart-2-ic {
   background-image: url(../img/sprite.png);
-  background-position: -48px 0px;
+  background-position: -29px -21px;
   width: 27px;
   height: 19px;
 }
 .icon-phone-book-ic {
   background-image: url(../img/sprite.png);
-  background-position: -97px -51px;
+  background-position: -70px -42px;
   width: 12px;
   height: 12px;
 }
 .icon-search-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -97px 0px;
-  width: 20px;
-  height: 20px;
+  background-position: -87px -23px;
+  width: 18px;
+  height: 18px;
 }
 .icon-search-ic {
   background-image: url(../img/sprite.png);
-  background-position: -97px -20px;
-  width: 20px;
-  height: 20px;
+  background-position: -87px -43px;
+  width: 18px;
+  height: 18px;
 }
 .icon-share-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -27px -23px;
-  width: 21px;
-  height: 19px;
+  background-position: -26px -65px;
+  width: 19px;
+  height: 17px;
 }
 .icon-share-ic {
   background-image: url(../img/sprite.png);
-  background-position: -54px -42px;
-  width: 21px;
-  height: 19px;
+  background-position: -47px -65px;
+  width: 19px;
+  height: 17px;
 }
 .icon-user-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -75px -23px;
-  width: 22px;
-  height: 23px;
+  background-position: -87px 0px;
+  width: 20px;
+  height: 21px;
 }
 .icon-user-ic {
   background-image: url(../img/sprite.png);
-  background-position: -75px 0px;
-  width: 22px;
-  height: 23px;
+  background-position: -48px -42px;
+  width: 20px;
+  height: 21px;
 }
 .icon-visa-ic {
   background-image: url(../img/sprite.png);
-  background-position: -48px -19px;
+  background-position: -29px 0px;
   width: 27px;
   height: 19px;
 }

@@ -31,7 +31,8 @@ gulp.task('sprite', function () { // Создаем таск sprite
     var spriteData = gulp.src('src/sprite/*.png').pipe(spritesmith({ // Настройка спрайта
         imgName: 'sprite.png',
         cssName: 'sprite.css',
-        imgPath: '../img/sprite.png'
+        imgPath: '../img/sprite.png',
+        padding: 2
     }));
     // return spriteData.pipe(gulp.dest('app/img/')); // выгружаем спрайты в папку img
     var imgStream = spriteData.img

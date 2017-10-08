@@ -267,7 +267,7 @@ input::-webkit-inner-spin-button {
 }
 
 .item-carousel-description > a:hover .icon.icon-cart-ic {
-    background-position: -20px -59px;
+    background-position: 0px -65px;
 }
 
 .new-arrivals {
@@ -378,15 +378,15 @@ input::-webkit-inner-spin-button {
 }
 
 .item-controls > li:hover .icon.icon-share-ic {
-    background-position: -44px -59px;
+    background-position: -26px -65px;
 }
 
 .item-controls > li:hover .icon.icon-add-to-cart-ic {
-    background-position: 0px -38px;
+    background-position: 0px -42px;
 }
 
 .item-controls > li:hover .icon.icon-like-ic {
-    background-position: -38px -80px;
+    background-position: 0px -84px;
 }
 
 .load-more {
@@ -442,7 +442,7 @@ a.load-more:hover span {
 }
 
 .kit-price > span > a:hover .icon.icon-add-to-cart-ic {
-    background-position: 0px -38px;
+    background-position: 0px -42px;
 }
 
 .kit-price > span:first-child {
@@ -536,7 +536,7 @@ a.load-more:hover span {
 }
 
 .best-sales-on-hover > a:hover .icon.icon-add-to-cart-ic {
-    background-position: 0px -38px;
+    background-position: 0px -42px;
 }
 
 .best-sales-on-hover > a:hover {
@@ -715,7 +715,6 @@ input[type='checkbox']:checked + label::before {
     margin-right: 80px;
 }
 
-
 .top-header {
     padding: 20px 0;
     border-bottom: 1px solid rgba(52, 64, 75, .1);
@@ -804,15 +803,15 @@ input[type='checkbox']:checked + label::before {
 }
 
 .user-controls > a:hover .icon.icon-search-ic {
-    background-position: -81px 0px;
+    background-position: -87px -23px;
 }
 
 .user-controls > a:hover .icon.icon-user-ic {
-    background-position: 0px -59px;
+    background-position: -87px 0px;
 }
 
 .user-controls > a:hover .icon.icon-cart-ic {
-    background-position: -20px -59px;
+    background-position: 0px -65px;
 }
 
 /* HEADER END */
