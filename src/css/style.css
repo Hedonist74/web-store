@@ -1042,6 +1042,29 @@ footer {
     padding-left: 5px;
 }
 
+@media (max-width: 991px) {
+    footer .flex-container.justify-sb.align-center {
+        flex-direction: column;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-nav {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav ul {
+        text-align: center;
+        list-style-type: none;
+    }
+    .payment-methods > span {
+        display: inherit;
+        text-align: center;
+    }
+}
+
 /* SLIDER START */
 
 .product-slider {
