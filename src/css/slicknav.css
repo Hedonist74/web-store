@@ -79,7 +79,7 @@
 .slicknav_menu {
   font-size: 18px;
   box-sizing: border-box;
-  background: #4c4c4c;
+  background: #7C7C7C;
   padding: 0 5px; }
   .slicknav_menu * {
     box-sizing: border-box; }
@@ -89,6 +89,14 @@
     text-shadow: 0 1px 3px #000; }
   .slicknav_menu .slicknav_icon-bar {
     background-color: #fff; }
+
+  .slicknav_menu:hover .slicknav_icon-bar {
+    background-color: #34404b;
+  }
+
+  .slicknav_menu:hover {
+    opacity: .9;
+  }
 
 .slicknav_btn {
   /*margin: 5px 5px 6px;*/
