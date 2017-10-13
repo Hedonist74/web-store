@@ -888,12 +888,17 @@ input[type='checkbox']:checked + label::before {
 /* DEFAULT COMPONENTS END */
 /* HEADER START */
 
+.header {
+    position: relative;
+}
+
 .header-info {
+    white-space: nowrap;
+    width: 100%;
     display: inline-flex;
 }
 
 .header .bottom-header .user-controls {
-    margin-left: auto;
     white-space: nowrap;
 }
 
@@ -919,6 +924,7 @@ input[type='checkbox']:checked + label::before {
 }
 
 .header-social {
+    margin-left: auto;
     color: #43525d;
 }
 
@@ -964,27 +970,30 @@ input[type='checkbox']:checked + label::before {
     .logo {
         margin-right: 0;
     }
-    .header .bottom-header .user-controls {
-        margin-left: 0;
-    }
 }
 
 @media (max-width: 599px) {
-    .flex-container.header-info {
-        display: flex;
-        justify-content: center;
+
+}
+
+@media (max-width: 479px) {
+    .header-info {
+        flex-wrap: wrap;
     }
-    .header-social {
-        float: none !important;
-        text-align: center;
-        padding-top: 20px;
-        font-size: 25px;
+    .header-info span {
+        width: 50%;
     }
     .header-info span + span {
-        margin-right: 0;
+        order: 1;
     }
-    .header-info {
-        justify-content: center;
+    .header-info .header-social {
+        margin-left: auto;
+    }
+    .header-info span + span {
+        margin-left: 0;
+    }
+    .header-social a + a {
+        margin-left: 5px;
     }
 }
 
@@ -996,18 +1005,19 @@ input[type='checkbox']:checked + label::before {
     margin-left: 30px;
 }
 
-.user-controls:nth-child(3) {
+.user-controls a {
     position: relative;
 }
 
-.user-controls a span.cart-number {
+.user-controls a span span.cart-number {
     position: absolute;
     display: flex;
     justify-content: center;
     width: 20px;
     height: 20px;
     top: -18px;
-    left: 107.5px;
+    margin: 0 2px;
+    /*left: 107.5px;*/
     color: #fff;
     font-size: 10px;
     line-height: 1.7;
@@ -1030,15 +1040,18 @@ input[type='checkbox']:checked + label::before {
     background-position: 0px -65px;
 }
 
-@media (max-width: 599px) {
-    .bottom-header .flex-container {
-        flex-direction: column;
+@media (max-width: 479px) {
+    .bottom-header .flex-container.align-center.justify-sb {
+        flex-wrap: wrap;
     }
     .bottom-header .logo img {
-        width: 250px;
+        /*width: 250px;*/
     }
     .bottom-header .user-controls {
-        margin: 40px 0;
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        padding-top: 40px;
     }
 }
 
@@ -1099,7 +1112,7 @@ input[type='checkbox']:checked + label::before {
 
 @media (max-width: 767px) {
     .sale-carousel {
-        min-height: 450px;
+        min-height: 550px;
     }
 }
 

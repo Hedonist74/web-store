@@ -56,6 +56,9 @@
   .slicknav_nav ul {
     display: block; }
   .slicknav_nav li {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
     display: block; }
   .slicknav_nav .slicknav_arrow {
     font-size: 0.8em;
@@ -73,13 +76,19 @@
 
 .slicknav_brand {
   float: left; }
+@media (max-width: 767px) {
+  .slicknav_nav li {
+    width: auto;
+  }
+}
 
 .slicknav_menu {
   font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #7C7C7C;
-  padding: 0 5px; }
+  /*background: #7C7C7C;*/
+  /*padding: 0 5px;*/
+}
   .slicknav_menu * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
@@ -91,7 +100,7 @@
     background-color: #fff; }
 
   .slicknav_menu:hover .slicknav_icon-bar {
-    background-color: #34404b;
+    /*background-color: #34404b;*/
   }
 
   .slicknav_menu:hover {
@@ -102,18 +111,24 @@
   /*margin: 5px 5px 6px;*/
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  /*-webkit-border-radius: 4px;*/
-  /*-moz-border-radius: 4px;*/
-  /*border-radius: 4px;*/
-  /*background-color: #222;*/
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ff5912;
 }
 
 .slicknav_nav {
+  text-align: right;
   color: #fff;
-  margin: 0;
+  margin: 1px 0;
   padding: 0;
   font-size: 0.875em;
   list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 100;
   overflow: hidden; }
   .slicknav_nav ul {
     list-style: none;
@@ -129,15 +144,16 @@
       background: #ccc;
       color: #fff; }
   .slicknav_nav a {
-    padding: 5px 10px;
-    margin: 2px 5px;
+    padding: 5px 15px;
+    /*margin: 2px 5px;*/
     text-decoration: none;
-    color: #fff; }
+    color: #34404b; }
     .slicknav_nav a:hover {
-      -webkit-border-radius: 6px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #222; }
+      /*-webkit-border-radius: 6px;*/
+      /*-moz-border-radius: 6px;*/
+      /*border-radius: 6px;*/
+      /*background: #ccc;*/
+      color: #ff5912; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
