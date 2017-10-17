@@ -96,6 +96,7 @@
 	position: relative;
 	vertical-align: middle;
 	padding: 0 32px;
+	margin-right: -10px;
 }
 .jq-number__field {
 	width: 30px;

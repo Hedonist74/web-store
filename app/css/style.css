@@ -950,7 +950,7 @@ input[type='checkbox']:checked + label::before {
 }
 
 .logo {
-    margin-right: 80px;
+    /*margin-right: auto;*/
 }
 
 .top-header {
@@ -989,6 +989,11 @@ input[type='checkbox']:checked + label::before {
 
 .header-social > a:hover .fa.fa-instagram {
     color: #ff5912;
+}
+
+.header-nav {
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
 .header-nav li {
@@ -1073,8 +1078,8 @@ input[type='checkbox']:checked + label::before {
             justify-content: center;
     width: 20px;
     height: 20px;
-    top: -18px;
-    margin: 0 2px;
+    top: -21px;
+    margin: 0 2.5px;
     /*left: 107.5px;*/
     color: #fff;
     font-size: 10px;
@@ -1127,6 +1132,8 @@ input[type='checkbox']:checked + label::before {
     min-height: 650px;
     background: url('../img/carousel-img-1.jpg');
     margin-bottom: 60px;
+    position: relative;
+    z-index: -1;
 }
 
 #sale-carousel {
@@ -1423,16 +1430,11 @@ footer {
     padding-right: .5em;
 }
 
-.choose-size {
-    margin-right: 21%;
-}
-
 .item-count > span {
     padding-right: 15px;
 }
 
 .item-count {
-    padding-left: 21%;
     border-left: 1px solid #d0d8db;
 }
 
@@ -1476,12 +1478,19 @@ footer {
     margin-bottom: 0;
 }
 
+.order-form #product-option-form {
+    width: 100%;
+}
+
+.order-form #product-option-form .item-count {
+    width: 50%;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 50%;
+}
+
 @media (max-width: 1200px) {
-    .order-form #product-option-form .choose-size {
-        margin-right: 11%;
-    }
-    .order-form #product-option-form .item-count {
-        padding-right: 40px;
-        padding-left: 11%;
-    }
+
 }
