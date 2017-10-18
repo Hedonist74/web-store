@@ -1,15 +1,9 @@
 WebStore
 =====================
 
-### 45VVJ:
-1. SDFS
-2. SDFSDF
-3. ASD
-4. ASDASG
-
 **Структура страниц**
 
-INDEX PAGE     | CATEGORY PAGE    | PRODUCT PAGE
+INDEX          | CATEGORY         | PRODUCT
 ---------------|------------------|---------------
 HEADER         | HEADER           | HEADER
 CAROUSEL       | CATEGORY-WRAP >  | SLIDER
@@ -22,15 +16,34 @@ FOOTER         | FOOTER           | FOOTER
 
 
 @MEDIA
-Название папок  | Содержание файла
-----------------|----------------------
-app             | Директория с готовым проектом
-app/css         | Готовые стили к продакшену
-app/js          | Готовый js к продакшену
-app/img         | Готовые картинки к продакшену
-app/fonts       | Шрифты
-src             | Директория с исходными файлыми
-src/css         | Исходные стили, здесь мы пишем наши стили и они будут конвертироваться в app/css
-src/img         | Исходные картинки, они будут минифицироваться и перегоняться в app/img
-src/js          | Исходный js будет минифицироваться и переносится в app/js
-src/sprite      | Папка для нарезанных картинок под будущие спрайты, после конветрации попадут в app/img
+max-width|Кому
+----|---------
+599 |order-form, order-info
+599 |new-arrivals
+1199|product-item
+991 |header
+479 |header
+479 |header
+1199|sale-carousel
+991 |sale-carousel
+767 |sale-carousel
+599 |sale-carousel
+1199|kit
+991 |kit
+599 |kit
+1199|best-sales
+767 |best-sales
+599 |best-sales
+479 |best-sales
+991 |news-letter-section
+599 |news-letter-section
+991 |footer
+479 |footer
+991 |aside-section
+599 |aside-section
+479 |aside-section
+991 |mobile-sidebar-btn, overlay
+599 |category-wrap
+991 |slider-block
+599 |slider-block
+599 |related

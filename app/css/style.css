@@ -552,10 +552,8 @@ a.load-more:hover span {
 }
 
 /* DEFAULT COMPONENTS END */
-
-
-    /* INDEX PAGE */
-/* HEADER */
+/* CUSTOM STYLES START */
+/* HEADER START */
 
 .header {
     position: relative;
@@ -643,10 +641,6 @@ a.load-more:hover span {
     .logo {
         margin-right: 0;
     }
-}
-
-@media (max-width: 599px) {
-
 }
 
 @media (max-width: 479px) {
@@ -744,7 +738,7 @@ a.load-more:hover span {
 }
 
 /* HEADER END */
-/* CAROUSEL */
+/* CAROUSEL START */
 
 .sale-carousel {
     min-height: 650px;
@@ -825,9 +819,7 @@ a.load-more:hover span {
 }
 
 /* CAROUSEL END */
-
-/* NEW-ARRIVALS */
-/* KIT + ADV-AREA */
+/* KIT + ADV-AREA START */
 
 .kit-price {
     font-family: 'Harmonia_black', sans-serif;
@@ -952,7 +944,7 @@ a.load-more:hover span {
 }
 
 /* KIT + ADV-AREA END */
-/* BEST-SALES */
+/* BEST-SALES START */
 
 .best-sales-product {
     min-height: 160px;
@@ -1084,7 +1076,7 @@ a.load-more:hover span {
 
 /* BEST-SALES END */
 
-/* NEWS-LETTER SECTION */
+/* NEWS-LETTER SECTION START */
 
 .news-letter-section {
     margin-top: -30px;
@@ -1161,7 +1153,7 @@ a.load-more:hover span {
 
 /* NEWS-LETTER SECTION END */
 
-/* FOOTER */
+/* FOOTER START */
 
 footer {
     padding: 90px 0;
@@ -1256,10 +1248,10 @@ footer {
 /* FOOTER END */
 
 
-    /* CATEGORY PAGE */
+    /* CATEGORY PAGE START */
 
 
-/* CATEGORY-WRAP + SIDEBAR + OVERLAY */
+/* CATEGORY-WRAP + SIDEBAR + OVERLAY START */
 
 .aside-section {
     padding: 40px;
@@ -1496,10 +1488,10 @@ input[type='checkbox']:checked + label::before {
 /* CATEGORY-WRAP + SIDEBAR + OVERLAY END */
 
 
-    /* PRODUCT PAGE */
+    /* PRODUCT PAGE START */
 
 
-/* FLEX-SLIDER SECTION */
+/* FLEX-SLIDER SECTION START */
 
 .product-slider {
     width: 330px;
@@ -1545,6 +1537,7 @@ input[type='checkbox']:checked + label::before {
     content: '-';
     padding-left: .5em;
     padding-right: .5em;
+    line-height: 2;
 }
 
 .item-count > span {
@@ -1618,9 +1611,9 @@ input[type='checkbox']:checked + label::before {
     }
 }
 
-/* FLEX-SLIDER SECTION END*/
+/* FLEX-SLIDER SECTION END */
 
-/* RELATED */
+/* RELATED START */
 
 .related {
     padding-top: 120px;
@@ -1637,3 +1630,4 @@ input[type='checkbox']:checked + label::before {
 }
 
 /* RELATED END */
+/* CUSTOM STYLES END */
