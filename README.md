@@ -11,15 +11,14 @@ WebStore
 
 INDEX PAGE     | CATEGORY PAGE    | PRODUCT PAGE
 ---------------|------------------|---------------
-###HEADER      | ###HEADER        | ###HEADER
-CAROUSEL       | CATEGORY-WRAP    | SLIDER
-NEW-ARRIVALS   | OVERLAY          | RELATED
-               | SIDEBAR          |
-###LOAD-MORE   | ###LOAD-MORE     |
-KIT            |                  |
-BEST-SALES     |                  |
-###NEWS-LETTER | ###NEWS-LETTER   | ###NEWS-LETTER
-###FOOTER      | ###FOOTER        | ###FOOTER
+HEADER         | HEADER           | HEADER
+CAROUSEL       | CATEGORY-WRAP >  | SLIDER
+NEW-ARRIVALS   | > OVERLAY        | RELATED
+---            | > SIDEBAR        | ---
+KIT            | ---              | ---
+BEST-SALES     | ---              | ---
+NEWS-LETTER    | NEWS-LETTER      | NEWS-LETTER
+FOOTER         | FOOTER           | FOOTER
 
 
 @MEDIA
