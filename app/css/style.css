@@ -261,6 +261,10 @@ input::-webkit-inner-spin-button {
     white-space:nowrap;
 }
 
+.flex-control-nav.flex-control-thumbs li + li {
+    margin-left: 10px;
+}
+
 .item-carousel-description .text {
     padding-top: .5em;
     padding-bottom: 4em;
@@ -284,6 +288,72 @@ input::-webkit-inner-spin-button {
     background-position: 0px -65px;
 }
 
+@media (max-width: 991px) {
+    .slider-product-describion {
+        padding-top: 40px;
+    }
+    .slider-block.product-wrap {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 599px) {
+    .order-form {
+        padding: 20px 0;
+    }
+    .order-form #product-option-form {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+    .order-form #product-option-form .item-count {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        width: 100%;
+        border: none;
+    }
+
+    .order-info .order-now {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+
+    .order-info .order-now > span.font-black {
+        width: 50%;
+        text-align: center;
+    }
+
+    .order-info .order-now .item-controls {
+        width: 50%;
+        padding: 0;
+    }
+
+    .order-info .order-now .btn-orange {
+        margin: 0 auto;
+        margin-top: 20px;
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .slider-block.product-wrap .title {
+        font-size: 37px;
+    }
+    .slider-block.product-wrap .product-slider {
+        width: 300px;
+    }
+    .slider-block.product-wrap {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .related.default-section {
+        padding-top: 80px;
+    }
+}
+
 .new-arrivals {
     margin-bottom: -30px;
 }
@@ -305,6 +375,10 @@ input::-webkit-inner-spin-button {
 .product-item .item-description {
     padding: 0 33px;
     margin-top: 30px;
+}
+
+.item-description .item-title a:hover {
+    color: #ff5912;
 }
 
 .product-item .item-title {
@@ -775,10 +849,6 @@ a.load-more:hover span {
     color: #ff5912;
 }
 
-.aside-section ul.font-bold li + li {
-    padding-top: 35px;
-}
-
 @media (max-width: 991px) {
     .aside-section:last-child {
         margin-bottom: 30px;
@@ -825,10 +895,6 @@ a.load-more:hover span {
         text-align: left;
     }
     form .checkbox-group + .checkbox-group {
-        padding-left: 0;
-        padding-top: 10px;
-    }
-    .aside-section ul.font-bold li + li {
         padding-left: 0;
         padding-top: 10px;
     }
@@ -919,6 +985,10 @@ input[type='checkbox']:checked + label::before {
 
 .range .aside-title {
     padding-bottom: 60px;
+}
+
+.aside-section ul li + li {
+    padding-top: 35px;
 }
 
 .checkbox-group + .checkbox-group {
@@ -1133,7 +1203,7 @@ input[type='checkbox']:checked + label::before {
     background: url('../img/carousel-img-1.jpg');
     margin-bottom: 60px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 #sale-carousel {
@@ -1176,9 +1246,33 @@ input[type='checkbox']:checked + label::before {
     height: 36px;
 }
 
+@media (max-width: 1199px) {
+    .sale-carousel {
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sale-carousel {
+        min-height: 400px;
+    }
+}
+
 @media (max-width: 767px) {
     .sale-carousel {
-        min-height: 550px;
+        min-height: 350px;
+    }
+    .sale-carousel .title.big {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 599px) {
+    .sale-carousel {
+        min-height: 350px;
+    }
+    .sale-carousel .title.big {
+        font-size: 34px;
     }
 }
 
@@ -1415,6 +1509,14 @@ footer {
     cursor: pointer;
 }
 
+.size-radio label:hover {
+    color: rgba(255,89,19,.9);
+}
+
+.size-radio label:active {
+    color: #ff5912;
+}
+
 .size-radio input[type="radio"]:checked + label {
     color: #ff5912;
     font-size: 18px;
@@ -1458,7 +1560,7 @@ footer {
 }
 
 .order-now .item-controls li + li {
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 .slider-block {
@@ -1466,7 +1568,7 @@ footer {
     padding-bottom: 120px;
 }
 
-.related.default-section {
+.related {
     padding-top: 120px;
 }
 
@@ -1482,7 +1584,7 @@ footer {
     width: 100%;
 }
 
-.order-form #product-option-form .item-count {
+#product-option-form .item-count {
     width: 50%;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
