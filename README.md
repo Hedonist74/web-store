@@ -41,7 +41,6 @@ max-width | Кому
  991      | footer
  479      | footer
  991      | aside-section
- 599      | aside-section
  479      | aside-section
  991      | mobile-sidebar-btn, overlay
  599      | category-wrap

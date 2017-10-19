@@ -121,7 +121,7 @@
   text-align: right;
   color: #fff;
   margin: 1px 0;
-  padding: 0;
+  padding: 10px 0;
   font-size: 0.875em;
   list-style: none;
   position: absolute;
@@ -130,7 +130,8 @@
   right: 0;
   background-color: #fff;
   z-index: 100;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 1px 2px 5px rgba(120, 120, 120, .5); }
   .slicknav_nav ul {
     list-style: none;
     overflow: hidden;
